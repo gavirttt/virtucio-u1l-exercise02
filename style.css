@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar{
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+
+aside{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+
+section{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
