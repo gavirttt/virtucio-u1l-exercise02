@@ -1,40 +1,42 @@
-*{
-    box-sizing: border-box;
-}
-
-header{
-    background-color: hsl(0, 0%, 86%);
+h1{
     text-align: center;
-    padding: 25px;
 }
 
-.navbar{
-    background-color: hsl(0, 0%, 15%);
-    height: 50px;
+.box1{
+    align-self: center;
 }
 
-aside{
-    text-align: center;
-    width: 100%;
-    float: left;
-    padding: 10px;
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-img {
-    max-width: 60%;
-    max-height: 60%;
-  }
-
-section{
-    width: 50%;
-    float: left;
-    padding: 10px;
+.box2-1{
+    align-self: center;
+    width:30%;
 }
 
-article{
-    width: 50%;
-    float: left;
-    padding: 10px;
+.box2-2{
+    align-self: center;
+    width:30%;
+}
+
+.box-2-3{
+    align-self: center;
+    width:30%;
+}
+
+.box3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.box4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 footer{
@@ -45,16 +47,41 @@ footer{
     padding: 25px;
 }
 
-h1{
-    font-size: 40px;
+#ftphoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    max-height: 60%;
 }
 
-p{
-    font-size: 20px;
+#projphoto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-@media screen and (max-width:600px){
-    aside, section, article{
-        width: 100%;
+#projphoto2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#projphoto3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.caption{
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .box2, .box3{
+        flex-direction: column;
     }
 }
