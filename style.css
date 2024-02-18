@@ -21,7 +21,7 @@ body{
 }
 
 header{
-    margin-top: 25%;
+    margin-top: 20%;
     margin-bottom:45%;
 }
 
@@ -55,8 +55,7 @@ p{
 }
 
 .caption{
-    width: 40%;
-    text-align: left;
+    width: 40%; 
 }
 
 img{
@@ -139,7 +138,16 @@ footer{
 }
 
 @media screen and (max-width:1000px){
-    .box2, .box3{
+    .box2-1, .box1-1{
         flex-direction: column;
+    }
+    .projphoto{
+        max-width:100%;
+    }
+    #ftphoto{
+        max-width:100%;
+    }
+    .caption{
+        width: 100%;
     }
 }
